@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+    var nilai=0;
+    
+    var soal1;
+    soal1 = prompt("5 x 4 = ...")
+    if (soal1 == 20){
+        nilai = nilai + 1
+    }
+    var soal2;
+    soal1 = prompt("40 : 5 = ...")
+    if (soal1 == 8){
+        nilai = nilai + 1
+    }
+    var soal3;
+    soal1 = prompt("12 + 15 = ...")
+    if (soal1 == 27){
+        nilai = nilai + 1
+    }
+    var soal4;
+    soal1 = prompt("25 - 8 = ...")
+    if (soal1 == 17){
+        nilai = nilai + 1
+    }
+    var soal5;
+    soal1 = prompt("9 x 7 = ...")
+    if (soal1 == 63){
+        nilai = nilai + 1
+    }
+    var soal6;
+    soal1 = prompt("35 : 7 = ...")
+    if (soal1 == 5){
+        nilai = nilai + 1
+    }
+    var soal7;
+    soal1 = prompt("14 + 19 = ...")
+    if (soal1 == 33){
+        nilai = nilai + 1
+    }
+    var soal8;
+    soal1 = prompt("36 : 4 = ...")
+    if (soal1 == 9){
+        nilai = nilai + 1
+    }
+    var soal9;
+    soal1 = prompt("7 x 6 = ...")
+    if (soal1 == 42){
+        nilai = nilai + 1
+    }
+    var soal10;
+    soal1 = prompt("28 - 11 = ...")
+    if (soal1 == 17){
+        nilai = nilai + 1
+    }
+
+    nilai = nilai * 10
+    alert("Nilai kamu adalah "+ nilai)
+    
+    </script>
+
+</body>
+</html>
